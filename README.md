@@ -26,6 +26,26 @@ The existing Repeater, Proxy, MCP, Findings and project workflows are available 
 
 ![Recon Dashboard](https://recon.vozen.io/app-dashboard.png)
 
+## Windows screenshots
+
+Click a screenshot to view it at full size.
+
+### Repeater
+
+[![Recon Repeater on Windows](https://recon.vozen.io/app-windows-repeater.png)](https://recon.vozen.io/app-windows-repeater.png)
+
+### Dashboard
+
+[![Recon Dashboard on Windows](https://recon.vozen.io/app-windows-dashboard.png)](https://recon.vozen.io/app-windows-dashboard.png)
+
+### Findings
+
+[![Recon Findings on Windows](https://recon.vozen.io/app-windows-findings.png)](https://recon.vozen.io/app-windows-findings.png)
+
+### Shell tools
+
+[![Recon shell tool editor on Windows](https://recon.vozen.io/app-windows-tools.png)](https://recon.vozen.io/app-windows-tools.png)
+
 ## Install
 
 On Windows, run the installer. It installs for your account and adds a Start menu shortcut; a desktop shortcut is optional. The portable ZIP can be unzipped to any writable folder. Windows packages are currently unsigned, so a publisher or SmartScreen notice may appear. Uninstalling keeps your settings and projects.
