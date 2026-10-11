@@ -41,7 +41,7 @@ Click a screenshot to view it at full size.
 
 ### Findings
 
-[![Recon Findings on Windows](https://recon.vozen.io/app-windows-findings.png)](https://recon.vozen.io/app-windows-findings.png)
+[![Recon Findings on Windows](https://recon.vozen.io/app-windows-findings-demo.png)](https://recon.vozen.io/app-windows-findings-demo.png)
 
 ### Shell tools
 
