@@ -4,7 +4,7 @@ A native HTTP workbench for macOS and Windows, with Repeater, an intercepting Pr
 
 ## Download
 
-Get **Recon 0.2.2** at [recon.vozen.io](https://recon.vozen.io). This repository hosts downloads and release notes.
+Get **Recon 0.2.3** at [recon.vozen.io](https://recon.vozen.io). This repository hosts downloads and release notes.
 
 | Platform | Download | Requirements |
 | --- | --- | --- |
@@ -14,15 +14,16 @@ Get **Recon 0.2.2** at [recon.vozen.io](https://recon.vozen.io). This repository
 
 The interface supports English and 简体中文. No Java, Node.js, Rust or Visual Studio installation is needed to use Recon.
 
-## What's new in 0.2.2
+## What's new in 0.2.3
 
-- Native Windows support with an installer and a portable ZIP.
-- Windows window controls, Ctrl shortcuts, GPUI Kit menus and Windows fonts.
-- Windows PowerShell 5.1 for custom tools, with host and shell details available to agents through MCP.
-- Per-user Windows settings, certificates and project directories, with separate development data.
-- Platform-specific certificate import instructions; certificates are not automatically trusted.
+- Project Resources: reusable Markdown guides, variables and credential references for agents through MCP.
+- In-app updates from About, with verified downloads, saved work and rollback when startup fails.
+- Complete forwarding of large HTTP responses, independent of history capture limits.
+- Findings with severity filtering, resizable list/detail panes and preserved selection and return position.
+- Resources with type/status filters, expiry presets, inline validation and saved-state feedback.
+- Clear project ownership, restored Workspace browsing position and better small-window layouts.
 
-The existing Repeater, Proxy, MCP, Findings and project workflows are available on both platforms. See the [release notes](https://github.com/Vozenio/recon/releases/tag/v0.2.2) for details.
+See the [release notes](https://github.com/Vozenio/recon/releases/tag/v0.2.3) for details. Install 0.2.3 manually to get the updater; future releases can be downloaded from About.
 
 ![Recon Dashboard](https://recon.vozen.io/app-dashboard.png)
 
@@ -59,6 +60,7 @@ Open Recon and start a project. Enable Proxy or MCP when you need them.
 - Proxy defaults to `127.0.0.1:8080`. Enable Allow LAN devices in Settings only when you need another device to connect.
 - MCP uses Streamable HTTP at `http://127.0.0.1:9877/mcp` with a bearer token. Copy the connection configuration from MCP → Connection → Add client.
 - Configure Allow / Ask / Deny per capability. Scope enforcement and request limits are optional; new or changed shell commands require review under Ask.
+- Resources belong to the current project. Store reusable instructions, identifiers and credentials; agents discover references through MCP, and supported HTTP requests resolve credential references inside Recon when sending.
 - Shell registrations are shared across projects; availability and default arguments belong to the current project. Commands receive JSON arguments on stdin and execute locally through `/bin/sh` on macOS or Windows PowerShell 5.1 on Windows.
 - Project data stays on your computer. Default projects are under `~/Library/Application Support/Recon/projects` on macOS and `%LOCALAPPDATA%\Recon\projects` on Windows. Recon does not require a cloud account.
 
