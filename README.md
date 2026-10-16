@@ -4,7 +4,7 @@ A native HTTP workbench for macOS and Windows, with Repeater, an intercepting Pr
 
 ## Download
 
-Get **Recon 0.2.4** at [recon.vozen.io](https://recon.vozen.io). This repository hosts downloads and release notes.
+Get **Recon 0.2.5** at [recon.vozen.io](https://recon.vozen.io). This repository hosts downloads and release notes.
 
 | Platform | Download | Requirements |
 | --- | --- | --- |
@@ -15,15 +15,15 @@ Get **Recon 0.2.4** at [recon.vozen.io](https://recon.vozen.io). This repository
 
 The interface supports English and 简体中文. No Java, Node.js, Rust or Visual Studio installation is needed to use Recon.
 
-## What's new in 0.2.4
+## What's new in 0.2.5
 
-- Clearer buttons, search highlights, JSON differences and status labels in light and dark themes.
-- Keyboard navigation in Projects, Findings, Comparer and WebSocket lists, with useful focus restored after menus and cancellations.
-- Request commands apply to the visible Repeater; Command/Ctrl+S saves the current resource form.
-- Help panels and resource editing fit smaller windows, including expanded metadata on Windows.
-- Full severity names in Findings, request-path priority in narrow Target layouts, and platform-specific certificate and shortcut guidance.
+- Compact windows use the full workspace with an overlay sidebar and readable single-pane HTTP views.
+- Dashboard presents project status, pending findings and recent work on one quieter, continuous surface.
+- Findings names severity as well as showing colour, and traffic tables keep request identity ahead of secondary metrics.
+- Repeater, MCP and Intruder share request preparation, preserving raw HTTP while applying targets and Content-Length consistently.
+- Saved messages, findings, resources and external links have stronger persistence, provenance and confirmation safeguards.
 
-See the [release notes](https://github.com/Vozenio/recon/releases/tag/v0.2.4) for details. Install 0.2.3 or later manually to get the updater; subsequent macOS and Windows releases can be downloaded from About. Linux updates are manual.
+See the [release notes](https://github.com/Vozenio/recon/releases/tag/v0.2.5) for details. Install 0.2.3 or later manually to get the updater; subsequent macOS and Windows releases can be downloaded from About. Linux updates are manual.
 
 ![Recon Dashboard](https://recon.vozen.io/app-dashboard.png)
 
