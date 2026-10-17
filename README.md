@@ -4,26 +4,25 @@ A native HTTP workbench for macOS and Windows, with Repeater, an intercepting Pr
 
 ## Download
 
-Get **Recon 0.2.5** at [recon.vozen.io](https://recon.vozen.io). This repository hosts downloads and release notes.
+Get **Recon 0.2.7 for macOS** at [recon.vozen.io](https://recon.vozen.io). Windows and Linux downloads remain on **0.2.5** while their 0.2.7 builds are pending. This repository hosts downloads and release notes.
 
 | Platform | Download | Requirements |
 | --- | --- | --- |
-| Windows | [Installer](https://github.com/Vozenio/recon/releases/latest/download/Recon-windows-x64-setup.exe) | Windows 10+, x64, Direct3D 11 capable graphics driver |
-| Windows | [Portable ZIP](https://github.com/Vozenio/recon/releases/latest/download/Recon-windows-x64.zip) | Same requirements; unzip and run `recon.exe` |
-| macOS | [App bundle](https://github.com/Vozenio/recon/releases/latest/download/Recon-macos.zip) | macOS 15+, Apple Silicon (arm64) |
-| Linux (experimental) | [Portable archive](https://github.com/Vozenio/recon/releases/latest/download/Recon-linux-x86_64.tar.gz) | x86_64, Ubuntu 24.04-compatible native libraries, Vulkan driver, Wayland or X11 |
+| Windows | [Installer](https://github.com/Vozenio/recon/releases/download/v0.2.5/Recon-windows-x64-setup.exe) | Windows 10+, x64, Direct3D 11 capable graphics driver |
+| Windows | [Portable ZIP](https://github.com/Vozenio/recon/releases/download/v0.2.5/Recon-windows-x64.zip) | Same requirements; unzip and run `recon.exe` |
+| macOS | [App bundle](https://github.com/Vozenio/recon/releases/download/v0.2.7/Recon-macos.zip) | macOS 15+, Apple Silicon (arm64) |
+| Linux (experimental) | [Portable archive](https://github.com/Vozenio/recon/releases/download/v0.2.5/Recon-linux-x86_64.tar.gz) | x86_64, Ubuntu 24.04-compatible native libraries, Vulkan driver, Wayland or X11 |
 
 The interface supports English and 简体中文. No Java, Node.js, Rust or Visual Studio installation is needed to use Recon.
 
-## What's new in 0.2.5
+## What's new in 0.2.7
 
-- Compact windows use the full workspace with an overlay sidebar and readable single-pane HTTP views.
-- Dashboard presents project status, pending findings and recent work on one quieter, continuous surface.
-- Findings names severity as well as showing colour, and traffic tables keep request identity ahead of secondary metrics.
-- Repeater, MCP and Intruder share request preparation, preserving raw HTTP while applying targets and Content-Length consistently.
-- Saved messages, findings, resources and external links have stronger persistence, provenance and confirmation safeguards.
+- Tool icons use consistent colours for requests, network traffic, analysis, resources and Agent connections.
+- Guides, variables and credentials have distinct book, braces and key icons in resource lists and details.
+- Cooler workspace surfaces and clearer blue, green, amber and purple syntax highlights work in light and dark appearances, with checked contrast for selected, hovered and inactive states.
+- Includes the native workspace panels, compact finding details, contextual New commands and resource deletion undo introduced in 0.2.6.
 
-See the [release notes](https://github.com/Vozenio/recon/releases/tag/v0.2.5) for details. Install 0.2.3 or later manually to get the updater; subsequent macOS and Windows releases can be downloaded from About. Linux updates are manual.
+See the [0.2.7 release notes](https://github.com/Vozenio/recon/releases/tag/v0.2.7) for details. Download 0.2.7 manually for macOS. About currently checks the complete cross-platform release, which remains 0.2.5 until the pending platform packages are verified. Linux updates are manual.
 
 ![Recon Dashboard](https://recon.vozen.io/app-dashboard.png)
 
